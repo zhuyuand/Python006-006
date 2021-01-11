@@ -1,0 +1,9 @@
+5. 使用 MySQL 官方文档，学习通过 sql 语句为上题中的 id 和 name 增加索引，并验证。
+根据执行时间，增加索引以后是否查询速度会增加？请论述原因，并思考什么样的场景下增加索引才有效。
+- 添加索引
+alter table user add index(id);
+场景:以id为条件进行查询
+
+alter table user add index(name);
+场景:以name为条件进行查询
+
